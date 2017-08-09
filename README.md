@@ -16,4 +16,8 @@ This is a proof-of-concept WordPress theme. I am just following my own "Custom L
 
 ## Credits
 
-This theme was made by [Brian Sexton](https://briansexton.com/).
+This WordPress theme, its corresponding tutorial articles, and their illustrations were made by [Brian Sexton](https://briansexton.com/).
+
+The dog photos used within the article illustrations are from ["The Real Digital Agency Dogs of WebEnertia"](https://www.webenertia.com/blog/real-agency-dogs-of-webenertia/ "WebEnertia | Blog » The Real Digital Agency Dogs of WebEnertia.") on the [WebEnertia Blog](https://webenertia.com/blog/).
+
+The placeholder photos used in my original version of this theme (visible in screenshot.png) were provided by some very kind photographers and [Unsplash](https://unsplash.com/). I would credit the specific photographers, but Unsplash seems to be down as I write this, so hopefully I'll remember to get back to that later.
