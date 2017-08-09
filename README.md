@@ -1,4 +1,4 @@
-# WebEnertia WordPress Custom Theme
+# Custom Landing Pages in WordPress
 
 **Code for My WordPress Landing Page Tutorial Series**
 
