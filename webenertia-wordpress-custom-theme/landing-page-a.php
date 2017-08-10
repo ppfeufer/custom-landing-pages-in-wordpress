@@ -35,7 +35,7 @@ Template Post Type: post, page
 
 		// The featured image will go here.
 
-		// The main text content will go here.
+		the_content();
 
 	endwhile;
 ?>
