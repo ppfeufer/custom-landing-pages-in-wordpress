@@ -23,7 +23,77 @@ Template Post Type: post, page
 
 		<div class="customer-options">
 
-			<!-- The customer options will go here. -->
+			<div class="try">
+
+				<?php if (is_active_sidebar('lp-opt-set-1-try-section')) : ?>
+
+					<?php dynamic_sidebar('lp-opt-set-1-try-section'); ?>
+
+				<?php else: ?>
+
+				<div class="body">
+
+					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-cutlery fa-stack-1x fa-inverse"></span></span> Try</h2>
+
+					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
+
+					<p>Donec id elit non mi porta gravida at eget metus.</p>
+
+				</div>
+
+				<?php endif; ?>
+
+				<footer><button type="button">Request a Sample</button></footer>
+
+			</div>
+
+			<div class="buy">
+
+				<?php if (is_active_sidebar('lp-opt-set-1-buy-section')) : ?>
+
+					<?php dynamic_sidebar('lp-opt-set-1-buy-section'); ?>
+
+				<?php else: ?>
+
+				<div class="body">
+
+					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-usd fa-stack-1x fa-inverse"></span></span> Buy</h2>
+
+					<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+
+					<p>Curabitur blandit tempus porttitor.</p>
+
+				</div>
+
+				<?php endif; ?>
+
+				<footer><button type="button">Place an Order</button></footer>
+
+			</div>
+
+			<div class="more-info">
+
+				<?php if (is_active_sidebar('lp-opt-set-1-more-info-section')) : ?>
+
+					<?php dynamic_sidebar('lp-opt-set-1-more-info-section'); ?>
+
+				<?php else: ?>
+
+				<div class="body">
+
+					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-info fa-stack-1x fa-inverse"></span></span> More Info</h2>
+
+					<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+					<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
+				</div>
+
+				<?php endif; ?>
+
+				<footer><button type="button">Read More</button></footer>
+
+			</div>
 
 		</div>
 
