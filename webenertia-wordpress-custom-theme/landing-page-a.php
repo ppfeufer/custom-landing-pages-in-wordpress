@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Landing Page 1
+Template Name: Landing Page A
 Template Post Type: post, page
 */
 ?>
@@ -9,7 +9,7 @@ Template Post Type: post, page
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing Page 1</title>
+	<title>Landing Page A</title>
 </head>
 <body>
 
@@ -17,7 +17,7 @@ Template Post Type: post, page
 
 		<div class="splash">
 
-			<h1>Landing Page 1</h1>
+			<h1>Landing Page A</h1>
 
 		</div>
 
@@ -31,7 +31,7 @@ Template Post Type: post, page
 
 			<!-- The featured image will go here. -->
 
-			<!-- The content will go here. -->
+			<!-- The main text content will go here. -->
 
 		</main>
 
