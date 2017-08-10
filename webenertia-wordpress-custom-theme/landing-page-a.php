@@ -5,13 +5,13 @@ Template Post Type: post, page
 */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing Page A</title>
+	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 	<div class="content">
 
@@ -36,6 +36,8 @@ Template Post Type: post, page
 		</main>
 
 	</div>
+
+	<?php wp_footer(); ?>
 
 </body>
 </html>
