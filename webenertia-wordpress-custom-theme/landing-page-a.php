@@ -17,7 +17,7 @@ Template Post Type: post, page
 
 		<div class="splash">
 
-			<h1>Landing Page A</h1>
+			<h1><?php the_title(); ?></h1>
 
 		</div>
 
