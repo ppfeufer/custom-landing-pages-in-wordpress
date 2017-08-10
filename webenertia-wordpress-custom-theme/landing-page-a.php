@@ -29,9 +29,16 @@ Template Post Type: post, page
 
 		<main>
 
-			<!-- The featured image will go here. -->
+<?php
 
-			<!-- The main text content will go here. -->
+	while(have_posts()) : the_post();
+
+		// The featured image will go here.
+
+		// The main text content will go here.
+
+	endwhile;
+?>
 
 		</main>
 
