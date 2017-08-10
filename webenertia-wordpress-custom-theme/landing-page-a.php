@@ -33,7 +33,7 @@ Template Post Type: post, page
 
 	while(have_posts()) : the_post();
 
-		// The featured image will go here.
+		print '<div class="featured-image">' . get_the_post_thumbnail() . '</div>';
 
 		the_content();
 
