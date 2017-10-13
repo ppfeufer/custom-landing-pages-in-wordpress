@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Landing Page A
+Template Name: Landing Page Template A
 Template Post Type: post, page
 */
 ?>
