@@ -9,7 +9,6 @@ Template Post Type: post, page
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -34,7 +33,7 @@ Template Post Type: post, page
 
 				<div class="body">
 
-					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-cutlery fa-stack-1x fa-inverse"></span></span> Try</h2>
+					<h2><img src="https://via.placeholder.com/56.png/555/fff?text=T" alt="Try icon"> Try</h2>
 
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
 
@@ -58,7 +57,7 @@ Template Post Type: post, page
 
 				<div class="body">
 
-					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-usd fa-stack-1x fa-inverse"></span></span> Buy</h2>
+					<h2><img src="https://via.placeholder.com/56.png/555/fff?text=B" alt="Buy icon"> Buy</h2>
 
 					<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 
@@ -82,7 +81,7 @@ Template Post Type: post, page
 
 				<div class="body">
 
-					<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-info fa-stack-1x fa-inverse"></span></span> More Info</h2>
+					<h2><img src="https://via.placeholder.com/56.png/555/fff?text=MI" alt="More Info icon"> More Info</h2>
 
 					<p>Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur.</p>
 
