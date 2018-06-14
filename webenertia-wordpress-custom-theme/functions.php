@@ -31,7 +31,7 @@ function lp_example_theme_widgets_init()
 		'description' => 'Use a text widget to customize the "Try" section title and text.',
 		'before_widget' => '<div class="body">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2><img src="https://via.placeholder.com/56.png/555/fff?text=T" alt="Try icon"> ',
+		'before_title' => '<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-cutlery fa-stack-1x fa-inverse"></span></span> ',
 		'after_title' => '</h2>'
 	));
 
@@ -41,7 +41,7 @@ function lp_example_theme_widgets_init()
 		'description' => 'Use a text widget to customize the "Buy" section title and text.',
 		'before_widget' => '<div class="body">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2><img src="https://via.placeholder.com/56.png/555/fff?text=B" alt="Buy icon"> ',
+		'before_title' => '<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-usd fa-stack-1x fa-inverse"></span></span> ',
 		'after_title' => '</h2>'
 	));
 
@@ -51,7 +51,7 @@ function lp_example_theme_widgets_init()
 		'description' => 'Use a text widget to customize the "More Info" section title and text.',
 		'before_widget' => '<div class="body">',
 		'after_widget' => '</div>',
-		'before_title' => '<h2><img src="https://via.placeholder.com/56.png/555/fff?text=MI" alt="More Info icon"> ',
+		'before_title' => '<h2><span class="fa-stack fa-lg"><span class="fa fa-circle fa-stack-2x"></span><span class="fa fa-info fa-stack-1x fa-inverse"></span></span> ',
 		'after_title' => '</h2>'
 	));
 }
