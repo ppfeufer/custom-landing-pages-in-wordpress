@@ -6,3 +6,335 @@ Author: Brian Sexton
 Author URI: https://briansexton.com/
 Template: twentyseventeen
 */
+
+/*----------------------------------------------------------------------------*\
+	General
+\*----------------------------------------------------------------------------*/
+
+body
+{
+	/*
+		Placeholder Photo: "Veggies For Sale" by Heder Neves
+			https://unsplash.com/photos/RWNO81Nnbew
+			https://unsplash.com/@hederneves
+	*/
+	background: url(https://source.unsplash.com/RWNO81Nnbew) center center /cover fixed,
+		linear-gradient(to bottom, #fff8e8 0%, #e3f5ab 33%, #b7df2d 100%)
+}
+
+/* Backdrop Screen */
+
+body::before
+{
+	content: '';
+
+	display: block;
+
+	background-color: rgba(0, 0, 0, 0.5);
+
+	width: 100%;
+	height: 100%;
+
+	position: fixed;
+
+	left: 0;
+	top: 0;
+
+	z-index: -1
+}
+
+h2
+{
+	margin: 0
+}
+
+p
+{
+	margin: 1em 0 0 0
+}
+
+p:last-child
+{
+	margin-bottom: 0
+}
+
+/*----------------------------------------------------------------------------*\
+	Content Wrapper
+\*----------------------------------------------------------------------------*/
+
+.content
+{
+	box-sizing: border-box;
+
+	padding: 0;
+
+	max-width: 100%;
+
+	margin: 0
+}
+
+@media screen and (min-width: 768px)
+{
+	.content
+	{
+		margin-bottom: 1em
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	.content
+	{
+		max-width: 980px;
+
+		margin: 24px auto
+	}
+}
+
+/*----------------------------------------------------------------------------*\
+	Splash
+\*----------------------------------------------------------------------------*/
+
+.splash
+{
+	/*	Placeholder Photo: "Grapes" by Maja Petric
+			https://unsplash.com/photos/vGQ49l9I4EE
+			https://unsplash.com/@majapetric
+	*/
+	background: rgba(0, 0, 0, 0.25) url(https://source.unsplash.com/vGQ49l9I4EE/980x300) center center / cover;
+
+	max-width: 100%
+}
+
+.splash h1
+{
+	color: #fff;
+
+	padding: 0.5em;
+
+	font-size: 3em;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	text-shadow: #000 2px 2px 4px;
+
+	margin: 0
+}
+
+@media screen and (min-width: 768px)
+{
+	.splash h1
+	{
+		font-size: 4em
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	.splash
+	{
+		min-height: 300px
+	}
+}
+
+/*----------------------------------------------------------------------------*\
+	Options
+\*----------------------------------------------------------------------------*/
+
+.customer-options > div
+{
+	background-color: rgba(255, 255, 255, 0.85);
+
+	padding: 2em;
+
+	margin: 1em
+}
+
+/* Font Awesome Icons */
+
+.customer-options > div .fa-stack
+{
+	font-size: 0.9em;
+
+	position: relative;
+
+	top: -2px
+}
+
+.customer-options > div > footer
+{
+	margin-top: 1em
+}
+
+@media screen and (min-width: 768px)
+{
+	.customer-options
+	{
+		display: flex
+	}
+
+	.customer-options > div
+	{
+		flex: 1 1 0;
+
+		display: flex;
+
+		flex-direction: column;
+
+		margin-right: 0
+	}
+
+	.customer-options > div:last-child
+	{
+		margin-right: 1em
+	}
+
+	.customer-options > div > div.body
+	{
+		flex: 1 1 auto
+	}
+
+	.customer-options > div > footer
+	{
+		flex: none
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	.customer-options > div:first-child
+	{
+		margin-left: 0
+	}
+
+	.customer-options > div:last-child
+	{
+		margin-right: 0
+	}
+}
+
+button
+{
+	border: 1px solid #888;
+
+	background-color: rgba(255, 255, 0, 0.25);
+	color: #555;
+
+	padding: 0.5em 1em;
+
+	width: 100%
+}
+
+button:hover,
+button:focus
+{
+	border: 1px solid #555;
+
+	background-color: rgba(255, 255, 0, 0.5)
+}
+
+.buy button
+{
+	border: 1px solid #666;
+
+	background-color: rgba(25, 140, 25, 0.75);
+	color: #fff
+}
+
+.buy button:hover,
+.buy button:focus
+{
+	border: 1px solid #333;
+
+	background-color: #198c19
+}
+
+/* Note: The following needs to appear below some of the above for .buy button:active to work. */
+
+button:active,
+.buy button:active
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff
+}
+
+/*----------------------------------------------------------------------------*\
+	Main Content
+\*----------------------------------------------------------------------------*/
+
+main
+{
+	background-color: rgba(255, 255, 255, 0.85);
+
+	padding: 2em;
+
+	overflow: auto;
+
+	margin: 1em
+}
+
+main .featured-image
+{
+	margin-bottom: 1em
+}
+
+main h2
+{
+	padding: 0
+}
+
+@media screen and (min-width: 768px)
+{
+	main .featured-image
+	{
+		position: relative;
+
+		width: 320px;
+		height: 480px;
+
+		overflow: hidden;
+
+		float: left;
+
+		margin-right: 1.5em;
+		margin-bottom: 0
+	}
+
+	main .featured-image img
+	{
+		position: absolute;
+
+		left: 50%;
+		top: 50%;
+
+		height: 100%;
+		width: auto;
+
+		max-width: initial;
+
+		transform: translate(-50%, -50%)
+	}
+
+	main h2
+	{
+		clear: none
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	main
+	{
+		margin: 0 1em
+	}
+}
+
+@media screen and (min-width: 1024px)
+{
+	main
+	{
+		margin: 0
+	}
+}
