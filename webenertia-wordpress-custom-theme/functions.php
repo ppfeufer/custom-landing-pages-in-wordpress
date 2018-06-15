@@ -2,11 +2,19 @@
 
 // Shared PHP for Landing Page Child Theme
 
+const LANDING_PAGE_TEMPLATE_FILES = array(
+	'landing-page-template-a.php',
+	'landing-page-template-b.php',
+	'landing-page-template-c.php'
+);
+
 // Hooks and Filters
 
 add_action('widgets_init', 'lp_example_theme_widgets_init');
 
 add_action('wp_enqueue_scripts', 'lp_example_theme_enqueue_assets');
+
+add_filter('document_title_parts', 'lp_example_theme_set_landing_page_title');
 
 // Functions
 
@@ -21,6 +29,19 @@ function lp_example_theme_enqueue_assets()
 		array($parent_style),
 		wp_get_theme()->get('Version')
 	);
+}
+
+function lp_example_theme_set_landing_page_title($title)
+{
+	global $post;
+
+	if (in_array(get_page_template_slug(), LANDING_PAGE_TEMPLATE_FILES, true))
+	{
+		$title['title'] = $post->post_title;
+		$title['site'] = '';
+	}
+
+	return $title;
 }
 
 function lp_example_theme_widgets_init()
