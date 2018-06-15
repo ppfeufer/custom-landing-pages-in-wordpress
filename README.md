@@ -20,7 +20,10 @@ This WordPress theme, its corresponding tutorial articles, and their illustratio
 
 The dog photos used within the article illustrations are from ["The Real Digital Agency Dogs of WebEnertia"](https://www.webenertia.com/blog/real-agency-dogs-of-webenertia/ "WebEnertia | Blog » The Real Digital Agency Dogs of WebEnertia.") on the [WebEnertia Blog](https://webenertia.com/blog/).
 
-The placeholder photos used in my original version of this theme (visible in screenshot.png) were provided by some very kind photographers and [Unsplash](https://unsplash.com/). My thanks to all of them!
+Placeholder photos used in this theme and with it during development and testing were provided by some very kind photographers and [Unsplash](https://unsplash.com/) (some via [Unsplash Source](https://source.unsplash.com/)). My thanks to all of them!
 * “[Fresh strawberries](https://unsplash.com/photos/GdTLaWamFHw)” - [Artur Rutkowski](https://unsplash.com/@alienowicz)
 * “[Future wine on vine](https://unsplash.com/photos/eq5O0oPSEZE)” - [Bill Williams](https://unsplash.com/@imwilliamwilliams)
+* “[Grapes](https://unsplash.com/photos/vGQ49l9I4EE)” - [Maja Petric](https://unsplash.com/@majapetric)
 * “[Veggies For Sale](https://unsplash.com/photos/RWNO81Nnbew)” - [Heder Neves](https://unsplash.com/@hederneves)
+
+Icons were provided by [Font Awesome](https://fontawesome.com/) and [StackPath](https://www.stackpath.com/)/[MaxCDN](https://www.maxcdn.com/).
